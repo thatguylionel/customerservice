@@ -1,0 +1,13 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+# Force the following filetypes to have unix line endings, so they will show up correctly in diffs
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf
+
+# Force the following filetypes to be left untouched, so they will show up correctly in diffs
+*.png binary
+*.jpg binary
+*.gif binary

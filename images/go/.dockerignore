@@ -1,0 +1,35 @@
+# Exclude bytecode and executable files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore Go build directories
+bin/
+pkg/
+
+# Exclude the Go workspace's specific directories
+.vscode/
+.idea/
+
+# Exclude version control system directories
+.git/
+.gitignore
+
+# Exclude common files that are not necessary for the build
+README.md
+*.md
+LICENSE
+.dockerignore
+
+# Exclude test files and directories
+*_test.go
+test/
+tests/
+
+# Exclude any configuration files or directories not needed for production
+*.yml
+*.yaml
+Dockerfile*
+Makefile
